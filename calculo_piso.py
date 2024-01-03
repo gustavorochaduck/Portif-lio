@@ -7,7 +7,7 @@ print('Por favor apenas digite os valores')
 piso = int(input('Valor do metro quadrado: '))
 # L = int(input('Digite a Largura: '))
 # A = int(input('Digite a Altura:'))
-M = int(input('Digite o tamanho da área em Metros Quadrados'))
+M = int(input('Digite o tamanho da área em Metros Quadrados: '))
 # A = Altura - L = largura - piso = Valor do piso - M = Metros Quadrados
 
 # Calculo
