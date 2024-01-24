@@ -1,6 +1,9 @@
-# Descriptografar a senha para comparar
+a1 = 923741
 
-c1 = 700031829 * 7
-c2 = c1 * 18851
-#psw = c2 + 1
-print(f'senha: {c2}')
+a2 = 11401242024
+
+r1 = a1 ^ a2
+
+b2 = 11401242024
+
+psw = r1 ^ b2

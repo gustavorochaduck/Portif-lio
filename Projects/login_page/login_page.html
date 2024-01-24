@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Eu irei tentar colocar o banco de dados em python. Então a pagina ira analizar o arquivo, descriptografar a senha e usuario.
+<!--Eu irei tentar colocar o banco de dados em python. Então a pagina ira analizar o arquivo, descriptografa a senha e usuario.
     Se der o mesmo resultado que no banco de dados, ele vai acessar o site. Irei ultilizar um arquivo chamado dt.py-->
 <head>
     <meta charset="UTF-8">
@@ -12,8 +12,8 @@
         <h2>User:<br>
         <input id="user" type="text" name="" id=""></h2>
         <h2>password:<br>
-            <input id="psw" type="password"> </h2>
-        <h3><button class="button" type="submit">Continue</button></h3>
+            <input id="psw1" type="password"> </h2>
+         <button src="google.com">Enviar</button>              
     </form>
     <style>
         body{
@@ -37,17 +37,45 @@
             border-radius: 10px 0px 10px 0px ;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-        #psw{
+        #psw1{
             background-color: rgb(8, 35, 54);
             border-radius: 10px;
             font-size: large;
-             
+            color: whitesmoke;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         #user{
             background-color: rgb(8, 35, 54);
             font-size: large;
             border-radius: 10px 10px;
+            color: whitesmoke;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
     </style>
+    <script>
+        let a1 = 923741;
+        let a2 = 110401242024
+        let r1 = a1 ^ a2;
+
+        let b2 = 110401242024;
+        
+        psw = r1 ^ b2
+
+        function handleSubmit(event) {
+         // Impede o envio padrão do formulário para evitar o recarregamento da página
+        event.preventDefault();
+
+        // Obtém os valores dos campos do formulário
+        var userInput = document.getElementById("user").value;
+        var passwordInput = document.getElementById("psw3").value;
+
+        // Exemplo de comparação (substitua isso pelo seu código real de comparação)
+        if (userInput === "cyberduck" && passwordInput === "psw") {
+            alert("Login bem-sucedido!");
+        } else {
+            alert("Credenciais inválidas. Tente novamente.");
+        }
+    }
+    </script>
 </body>
 </html>
