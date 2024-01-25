@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+#logo{
+    text-align: center;
+}
+#text-01{
+    text-align: right;
+}
+#wheater-link-1{
+    color: rgb(0, 252, 0);
+}
+#Filmmaker-link-1{
+    color: rgb(0, 255, 0);
+    
+}
