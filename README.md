@@ -24,6 +24,10 @@ I Whan't to make vary much projects in Respberry Pi
 ...
 
 # Python
+Floor Calculator
+Pythagoras Calculator
+Bhaskara Calculator 
+
 This Project is For people who work by laying floors
 
 My Fisrt Project is an application that calculates the value of the working hour and the value of the floor placed
