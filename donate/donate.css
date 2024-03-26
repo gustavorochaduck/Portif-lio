@@ -1,10 +1,32 @@
 body{
     background-image: url(img/Untitled.jpeg);
+    background-size: auto;
     background-color: rgb(10, 5, 36);
 }
 .title{
     color: whitesmoke;
+    margin: 50%;
+    backdrop-filter: blur(10%);
+}
+#title_01{ 
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+#title_text{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
 }
 .projects{
-backdrop-filter: blur(10px);
+    color: whitesmoke;
+    margin: 50%;
+    backdrop-filter: blur(10px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+.donation{
+    backdrop-filter: blur(10%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
 }
