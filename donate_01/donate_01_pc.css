@@ -2,7 +2,7 @@ body{
     background-image: url(background/Untitled.jpeg);
     background-size: auto;
 }
-.pix_button{
+button.pix_button{
     background: rgb(113,0,64);
     background: linear-gradient(180deg, rgba(113,0,64,1) 0%, rgba(67,1,75,1) 100%);
     
