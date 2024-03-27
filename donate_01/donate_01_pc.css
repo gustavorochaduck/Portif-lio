@@ -1,9 +1,8 @@
-.body{
+body{
     background-image: url(background/Untitled.jpeg);
     background-size: auto;
 }
-
-.pix_modal{
+div.pix_modal{
     background: rgb(113,0,64);
     background: linear-gradient(180deg, rgba(113,0,64,1) 0%, rgba(67,1,75,1) 100%);
     
