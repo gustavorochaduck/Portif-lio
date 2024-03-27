@@ -16,9 +16,10 @@ button.pix_button{
     border-radius: 8px;
     position: fixed;
     top: 75%;
-    left: 50%;
+    left: 40%;
     width: 192px;
     height: 79px;
+    box-shadow: 5px 10px 8px 10px #888888;
 
 
 }
