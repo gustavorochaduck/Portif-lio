@@ -1,3 +1,16 @@
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
 body{
     display: flex;
     overflow: hidden; 
@@ -61,6 +74,9 @@ body{
     margin-top: 7px;
     
 }
+.github_button:active{
+    transform: translateY(4px);
+}
 .insta_button{
     max-width: fit-content;
     margin-top: 5%;
@@ -75,6 +91,9 @@ body{
     margin-right: 35px;
     margin-bottom: 7px;
     margin-top: 7px;
+}
+.insta_button:active{
+    transform: translateY(4px);
 }
 .project_bnt{
     display: flex;
@@ -101,6 +120,9 @@ body{
     margin-bottom: 7px;
     margin-top: 3%;
 }
+.project_bnt:active{
+    transform: translateY(4px);
+}
 a{
     text-decoration: none;
 }
@@ -113,4 +135,7 @@ a{
 #btc_icon{
     height: 35px;
     width: 35px;
+}
+.btc_bnt:active{
+    transform: translateY(4px);
 }
