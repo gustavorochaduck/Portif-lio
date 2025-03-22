@@ -1,1 +1,1 @@
-window.alert("This is a BETA");
+//window.alert("This is a BETA");

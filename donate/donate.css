@@ -20,7 +20,7 @@ body{
     backdrop-filter: blur(15px);
     border-radius: 30px;
     border: 1px solid whitesmoke;
-    padding: 3%;
+    /*padding: 3%;*/
     padding-top: 7px;
     box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.2);
 }
@@ -30,6 +30,7 @@ body{
     border-bottom-style: solid;
     border-bottom: 1px solid whitesmoke;
     border-style: 1px;
+    padding: 0 !important;
 }
 #adm_name{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -54,13 +55,16 @@ body{
     width: 26px;
     height: 26px;
 }
-.btc_qr{
+.BTC{
+    padding: 4%;
+}
+#btc_qr{
     margin-top: 3%;
     margin-left: 30%;
     margin-right: auto;
     border-radius: 52px;
 }
-.btc_code{
+#btc_code{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: whitesmoke;
     font-weight: bold;
